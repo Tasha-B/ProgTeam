@@ -1,22 +1,26 @@
-// interface Props {
-//     params: {
-//         id: string[]
-//     }
-// }
+interface Props {
+    params: {
+        id: string
 
-export async function generateStaticParams() {
-    const films = await fetch('https://swapi.dev/api/films').then((res) => res.json())
+        // id: string[]
+        // при этом папка [...id]
+        // <h2>Items: block with id { JSON.stringify(params) }</h2>
+        // тогда мы можем выводить несколько block/42/55/4452 ect
+    }
+}
 
-    return films.results.map((film: any) => ({
-      slug: film.title.replace(/\s+/g, '-'),
-    }))
-  }
+// export async function generateStaticParams() {
+//     const blocks = await fetch('https://.../blocks').then((res) => res.json())
 
-export default function Block({params}: any) {
+//     return blocks.map((block: any) => ({
+//       slug: block.slug,
+//     }))
+//   }
+
+export default function BlockItems({ params }: Props) {
     return (
-    <div>
-<h1>Block with id {JSON.stringify(params)}</h1>
-    </div>
-
-    )
-  }
+<div>
+    <h2>Items: block with id { params.id }</h2>
+</div>
+  )
+}
