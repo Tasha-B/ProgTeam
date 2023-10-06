@@ -4,18 +4,19 @@ export default function FormBlock() {
 <form>
   <div className="space-y-12">
     <div className="border-b border-gray-900/10 dark:border-gray-100 pb-12">
-      <h2 className="text-base font-semibold leading-7 text-gray-800  dark:text-gray-100">Personal Information</h2>
-      <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-100">Use a permanent address where you can receive mail</p>
+      <h2 className="text-base font-semibold leading-7 text-gray-800  dark:text-gray-100">
+        Personal Information</h2>
+      <p className="mt-1 text-sm leading-6 text-gray-600 dark:text-gray-100">
+        Use a permanent address where you can receive mail</p>
 
       <div className="mt-10 grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-6">
         <div className="sm:col-span-3">
           <label htmlFor="first-name" className="block text-sm font-medium leading-6 text-gray-800
-        dark:text-gray-100">First name</label>
+          dark:text-gray-100">First name</label>
           <div className="mt-2">
             <input type="text" name="first-name" id="first-name" autoComplete="given-name" className="block w-full rounded-md
-            border-0 py-1.5 text-gray-800 dark:border-gray-100
-            dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400
-            focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" />
+            border-0 py-1.5 text-gray-800 dark:border-gray-100 dark:text-gray-100 shadow-sm ring-1 ring-inset
+            ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
 
@@ -24,20 +25,19 @@ export default function FormBlock() {
         dark:text-gray-100">Last name</label>
           <div className="mt-2">
             <input type="text" name="last-name" id="last-name" autoComplete="family-name" className="block w-full rounded-md
-            border-0 py-1.5 text-gray-800 dark:border-gray-100
-            dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2
-            focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" />
+            border-0 py-1.5 text-gray-800 dark:border-gray-100 dark:text-gray-100 shadow-sm ring-1 ring-inset
+            ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
-        <input placeholder="Phone" name="userphone" type="tel" />
+        {/* <input placeholder="Phone" name="userphone" type="tel" className="block text-sm font-medium leading-6 text-gray-800
+        dark:text-gray-100 rounded-md border-0 py-1.5 dark:border-gray-100 "/> */}
 
         <div className="sm:col-span-4">
           <label htmlFor="email" className="block text-sm font-medium leading-6 text-gray-800 dark:text-gray-100">Email address</label>
           <div className="mt-2">
             <input id="email" name="email" type="email" autoComplete="email" className="block w-full rounded-md border-0 py-1.5
-            text-gray-800 dark:border-gray-100
-            dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset
-            focus:ring-green-600 sm:text-sm sm:leading-6" />
+            text-gray-800 dark:border-gray-100 dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300
+            placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-green-600 sm:text-sm sm:leading-6" />
           </div>
         </div>
 
@@ -47,9 +47,9 @@ export default function FormBlock() {
             <select id="country" name="country" autoComplete="country-name" className="block w-full rounded-md border-0 py-1.5
             text-gray-800 dark:border-gray-100 dark:text-gray-100 shadow-sm ring-1 ring-inset ring-gray-300 focus:ring-2 focus:ring-inset focus:ring-green-600
             sm:max-w-xs sm:text-sm sm:leading-6">
-              <option>United States</option>
-              <option>Canada</option>
-              <option>Mexico</option>
+              <option>Russia</option>
+              <option>Türkiye</option>
+              <option>Australia</option>
             </select>
           </div>
         </div>

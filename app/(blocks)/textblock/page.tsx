@@ -23,8 +23,8 @@ placeholder="Write here...">
             </Link>
             <div className="flex">
               <div className="">
-                <h3 className="mt-3 mb-2 text-gray-200 font-bold text-2xl">Lorem Ipsum </h3>
-                  <p className="text-gray-200">
+                <h3 className="mt-3 mb-2 text-gray-800 dark:text-gray-100 font-bold text-2xl">Lorem Ipsum </h3>
+                  <p className="text-gray-800 dark:text-gray-100">
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Numquam quos iure
                     atque est, at repellat voluptates quibusdam rem labore modi obcaecati dolorem
                     fugit eveniet! Officia quia odio quibusdam placeat hic! Lorem ipsum, dolor sit

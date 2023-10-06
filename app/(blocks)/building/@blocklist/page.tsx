@@ -15,6 +15,7 @@ export default function BlockList() {
       <li><Link href="/formblock" className="hover:underline">Form</Link></li>
       <li><Link href="/searchblock" className="hover:underline">Search</Link></li>
       <li><Link href="/paginationblock" className="hover:underline">Pagination</Link></li>
+      <li><Link href="/uploadblock" className="hover:underline">Upload</Link></li>
     </ul>
     </div>
    )

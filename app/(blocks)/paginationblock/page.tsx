@@ -8,24 +8,23 @@ export default function PaginationBlock() {
           <li>
             <Link
               href="#"
-              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-l-lg"
-            >
-              Previos
+              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100
+              hover:text-gray-700 rounded-l-lg">Previos
             </Link>
           </li>
           <li>
             <Link
               href="#"
-              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
+              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100
+              hover:text-gray-700">
               1
             </Link>
           </li>
           <li>
             <Link
               href="#"
-              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
+              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100
+              hover:text-gray-700">
               2
             </Link>
           </li>
@@ -48,8 +47,8 @@ export default function PaginationBlock() {
           <li>
             <Link
               href="#"
-              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700"
-            >
+              className=""
+            >inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700
               5
             </Link>
           </li>
@@ -57,7 +56,8 @@ export default function PaginationBlock() {
           <li>
             <Link
               href="#"
-              className="inline-block py-1 px-3 border-gray-300 text-gray-500 hover:bg-gray-100 hover:text-gray-700 rounded-r-lg"
+              className="inline-block py-1 px-3 border border-gray-300 text-gray-500 hover:bg-gray-100
+              hover:text-gray-700 rounded-r-lg"
             >
               Next
             </Link>

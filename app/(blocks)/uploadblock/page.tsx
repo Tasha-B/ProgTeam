@@ -1,7 +1,7 @@
 export default function UploadBlock() {
 
     return (
-      <div className="bg-gray-100 h-screen flex items-center justify-center p-3">
+      <div className="bg-gray-100 h-screen flex items-start justify-center p-3">
     <div className="w-full max-w-md p-9 bg-white rounded-lg shadow-lg">
         <h1 className="text-center text-2xl sm:text-2xl font-semibold mb-4 text-gray-800">File Drop and Upload</h1>
         <div className="bg-gray-100 p-8 text-center rounded-lg border-dashed border-2 border-gray-300 hover:border-blue-500 transition duration-300 ease-in-out transform hover:scale-105 hover:shadow-md" id="dropzone">
