@@ -1,7 +1,6 @@
 import './globals.css'
 import type { Metadata } from 'next'
 import { Nunito_Sans } from 'next/font/google'
-// import { Header } from '@/components/Header'
 
 const nunitoSans = Nunito_Sans({ subsets: ['latin']})
 
@@ -16,7 +15,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en" className='dark scroll-smooth m-0 '>
+    <html lang="en" className='light font-light scroll-smooth m-0 '>
       <body className='{nunitoSans.className}>{children} max-w-full flex justify-center
       bg-gray-100 dark:bg-gray-600 text-gray-950 dark:text-white'>
         <main className='container bg-gray-100 dark:bg-gray-600 min-h-screen flex flex-col
